@@ -254,3 +254,59 @@ body, html {
     text-decoration: underline;
   }
   
+
+@media (max-width: 768px) {
+    .hero-header ul {
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 2.2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .about h2 {
+      font-size: 2rem;
+    }
+  
+    .about p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects {
+      padding-bottom: 8rem;
+     }
+      
+    .hero-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-text p {
+      font-size: 0.95rem;
+    }
+  
+    .hero-header ul {
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.5rem;
+    }
+  
+    .project-card {
+      padding: 1rem;
+    }
+  
+    .site-footer {
+      font-size: 0.8rem;
+    }
+  }
+  
