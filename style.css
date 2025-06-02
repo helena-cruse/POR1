@@ -235,6 +235,49 @@ body, html {
       opacity: 0;
     }
   }
+  .collab-section {
+    background-image: url("images/work-together.png");
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 1rem;
+    text-align: center;
+    color: #ff69b4;
+    position: relative;
+  }
+  
+  .collab-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  
+  .collab-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .collab-content h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-weight: 800;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+  }
+  
+  .collab-content h2.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 600px) {
+    .collab-content h2 {
+      font-size: 1.6rem;
+    }
+  }
   
   .site-footer {
     background-color: #111;
@@ -253,7 +296,6 @@ body, html {
   .site-footer a:hover {
     text-decoration: underline;
   }
-  
 
 @media (max-width: 768px) {
     .hero-header ul {
@@ -282,11 +324,7 @@ body, html {
     }
   }
   
-  @media (max-width: 480px) {
-    .projects {
-      padding-bottom: 8rem;
-     }
-      
+  @media (max-width: 480px) {  
     .hero-text h1 {
       font-size: 1.8rem;
     }
