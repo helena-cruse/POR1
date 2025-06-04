@@ -26,7 +26,7 @@ I have change the HTML and CSS to have a new navigation menu that does not have 
 i have used JS to change from nav menu to hamburger menu on smaller screens. 
 i have also changes so that the page does not realode when clicking the hamburger menu.
 
-Link to repo: https: //github.com/helena-cruse/semester-project1.git
+Link to repo: https://github.com/helena-cruse/semester-project1.git
 Link to live site:https://helena-cruse.github.io/semester-project1/
 
 The last project (PE1) i have not gotten feedback on yet so no changes has been made.
