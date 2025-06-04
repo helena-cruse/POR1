@@ -14,7 +14,7 @@ i removed thebconsole.log statement.
 I fixed the redirection so that i works on checkout.js
 i persnollay liked the cart section the way i solved it in the first place so i have decided not to changes it. 
 
-Link to repo: https: //github.com/helena-cruse/Rainydays-CA.git
+Link to repo: https: https://github.com/helena-cruse/Rainydays-CA
 Link to live site: https://helena-cruse.github.io/Rainydays-CA/
 
 Feeback from the Semester Project (community sience museum):
